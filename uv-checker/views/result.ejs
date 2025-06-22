@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+
+<div class="container mt-5">
+  <div class="card text-center shadow">
+    <div class="card-body">
+      <h3 class="card-title">Current UV Index</h3>
+      <% if (uv !== null) { %>
+        <h1 class="display-4"><span class="badge bg-warning text-dark"><%= uv.toFixed(1) %></span></h1>
+        <p class="lead"><%= recommendation %></p>
+      <% } else { %>
+        <div class="alert alert-danger" role="alert">
+          <%= recommendation %>
+        </div>
+      <% } %>
+      <a href="/" class="btn btn-primary mt-3">Check Another Location</a>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %>

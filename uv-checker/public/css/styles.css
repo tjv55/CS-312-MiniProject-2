@@ -1,0 +1,46 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Times New Roman';
+}
+
+a, a:hover {
+    color: #90caf9;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    color: #bb86fc;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+form .form-control {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #333;
+}
+
+form .form-control:focus {
+    border-color: #6200ea;
+    box-shadow: 0 0 0 0.2rem rgba(98, 0, 234, 0.25);
+}
+
+.btn-primary {
+    background-color: #6200ea;
+    border-color: #6200ea;
+}
+
+.btn-primary:hover {
+    background-color: #3700b3;
+    border-color: #3700b3;
+}
+
+.alert-danger {
+    background-color: #ff4e4e;
+    color: white;
+    border: none;
+}
